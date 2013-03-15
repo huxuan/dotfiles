@@ -1,0 +1,11 @@
+[user]
+	name = huxuan
+	email = i@huxuan.org
+[color]
+	ui = auto
+[push]
+	default = simple
+[alias]
+	s = status
+	b = branch
+	d = diff
