@@ -1,0 +1,5 @@
+
+# add .bashrc4me
+if [ -f ~/.bashrc4me ]; then
+    . ~/.bashrc4me
+fi

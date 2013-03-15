@@ -1,0 +1,81 @@
+# vim as default editor
+export EDITOR="/usr/bin/vim"
+
+# PS1
+if [[ ${EUID} == 0 ]] ; then
+    PS1='\[\033[01;34m\] \w \$\[\033[00m\] '
+else
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[01;34m\] \w \$\[\033[00m\] '
+fi
+
+# make sudo has same PATH
+alias sudo='sudo env PATH=$PATH $@'
+
+# ls
+alias ls='ls -hF --color=auto'
+alias lr='ls -R'                    # recursive ls
+alias ll='ls -l'
+alias la='ll -A'
+alias lx='ll -BX'                   # sort by extension
+alias lz='ll -rS'                   # sort by size
+alias lt='ll -rt'                   # sort by date
+alias lm='la | more'
+
+# safety features
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -I'                    # 'rm -i' prompts for every file
+alias ln='ln -i'
+alias chown='chown --preserve-root'
+alias chmod='chmod --preserve-root'
+alias chgrp='chgrp --preserve-root'
+
+# bash completion
+if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
+    . /etc/bash_completion
+fi
+
+# auto-completion
+# complete -cf sudo
+complete -cf man
+
+# alias for command
+alias grep='grep --colour=auto'
+alias df='df -h'
+alias mkdir='mkdir -p -v'
+alias mtr='mtr -t'
+alias pacman='PACMAN=/usr/bin/pacman; [ -f /usr/bin/pacman-color ] && PACMAN=/usr/bin/pacman-color; $PACMAN $@'
+
+# alias for VPS
+alias linode='ssh huxuan@106.187.39.83 -D 8964'
+alias xehost='ssh huxuan@198.244.51.32 -D 8964'
+alias xehost6='ssh huxuan@2001:1978:2000:2::3:32 -D 8964'
+alias xehost0='ssh root@180.210.243.243 -D 8964'
+alias xehost1='ssh root@198.244.51.31 -D 8964'
+alias xehost16='ssh root@2001:1978:2000:2::3:23 -D 8964'
+alias icst='ssh huxuan@172.31.204.239'
+alias cpdp='ssh huxuan@172.31.204.177'
+alias cpdp1='ssh huxuan@59.108.48.16'
+
+# alias for software
+alias synergy='synergyc icst-pc'
+
+# alias for script
+alias dns_auto='/home/huxuan/Code/scripts/dnsmasq_switch.sh'
+alias dns_pku='/home/huxuan/Code/scripts/dnsmasq_switch.sh p'
+alias dns_google='/home/huxuan/Code/scripts/dnsmasq_switch.sh g'
+
+# PATH for texlive
+PATH=/usr/local/texlive/2012/bin/x86_64-linux:$PATH; export PATH
+MANPATH=/usr/local/texlive/2012/texmf/doc/man:$MANPATH; export MANPATH
+INFOPATH=/usr/local/texlive/2012/texmf/doc/info:$INFOPATH; export INFOPATH
+
+# PATH for Android SDK
+export PATH=${PATH}:~/Code/android-sdk-linux/tools
+export PATH=${PATH}:~/Code/android-sdk-linux/platform-tools
+
+# Load RVM function
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+# Settings for Java
+export JAVA_HOME=/usr/lib/jvm/java-7-openjdk/jre
