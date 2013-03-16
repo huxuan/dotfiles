@@ -101,9 +101,6 @@ let g:snips_author = 'huxuan'
 let g:snips_email = 'i(at)huxuan.org'
 let g:tex_flavor = 'latex'
 
-Bundle 'Pydiction'
-let g:pydiction_location = '~/.vim/bundle/Pydiction/complete-dict'
-
 Bundle 'evanmiller/nginx-vim-syntax'
 au BufRead,BufNewFile */etc/nginx/* set ft=nginx
 au BufRead,BufNewFile */usr/local/nginx/conf/* set ft=nginx
