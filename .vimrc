@@ -32,7 +32,7 @@ syntax on                       " enable syntax
 
 set background=dark             " adapt color to dark background
 
-set mouse=a                     " enable mouse
+" set mouse=a                     " enable mouse
 set mousehide                   " hide mouse after chars typed
 
 set number                      " show line number
