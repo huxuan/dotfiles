@@ -48,8 +48,8 @@ alias pacman='PACMAN=/usr/bin/pacman; [ -f /usr/bin/pacman-color ] && PACMAN=/us
 
 # alias for VPS
 alias linode='ssh huxuan@106.187.39.228 -D 8964'
-alias xehost='ssh huxuan@198.244.51.32 -D 8964'
-alias xehost6='ssh huxuan@2001:1978:2000:2::3:32 -D 8964'
+alias xehost='ssh root@198.244.51.32 -D 8964'
+alias xehost6='ssh root@2001:1978:2000:2::3:32 -D 8964'
 alias xehost0='ssh root@180.210.243.243 -D 8964'
 alias xehost1='ssh root@198.244.51.31 -D 8964'
 alias xehost16='ssh root@2001:1978:2000:2::3:23 -D 8964'
