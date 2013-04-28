@@ -95,11 +95,11 @@ Bundle 'gmarik/vundle'
 
 Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
-Bundle "honza/vim-snippets"
 Bundle 'garbas/vim-snipmate'
 let g:snips_author = 'huxuan'
 let g:snips_email = 'i(at)huxuan.org'
 let g:tex_flavor = 'latex'
+Bundle "huxuan/vim-snippets"
 
 Bundle 'evanmiller/nginx-vim-syntax'
 au BufRead,BufNewFile */etc/nginx/* set ft=nginx
