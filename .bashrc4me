@@ -12,7 +12,7 @@ fi
 alias sudo='sudo env PATH=$PATH $@'
 
 # ls
-alias ls='ls -hF --color=auto'
+alias ls='ls -hF'
 alias lr='ls -R'                    # recursive ls
 alias ll='ls -l'
 alias la='ll -A'
@@ -24,7 +24,6 @@ alias lm='la | more'
 # safety features
 alias cp='cp -i'
 alias mv='mv -i'
-alias rm='rm -I'                    # 'rm -i' prompts for every file
 alias ln='ln -i'
 alias chown='chown --preserve-root'
 alias chmod='chmod --preserve-root'
@@ -80,3 +79,6 @@ export PATH=${PATH}:~/Code/android-sdk-linux/platform-tools
 
 # Settings for Java
 export JAVA_HOME=/usr/lib/jvm/java-7-openjdk/jre
+
+# Homebrew
+export PATH=${PATH}:/usr/local/sbin:/usr/local/bin;
