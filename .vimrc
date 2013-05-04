@@ -100,6 +100,9 @@ let g:snips_author = 'huxuan'
 let g:snips_email = 'i(at)huxuan.org'
 let g:tex_flavor = 'latex'
 Bundle "huxuan/vim-snippets"
+let g:snipMate = {}
+let g:snipMate.scope_aliases = {}
+let g:snipMate.scope_aliases['python'] = 'python,python-custom'
 
 Bundle 'evanmiller/nginx-vim-syntax'
 au BufRead,BufNewFile */etc/nginx/* set ft=nginx
