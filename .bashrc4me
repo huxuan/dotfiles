@@ -25,9 +25,6 @@ alias lm='la | more'
 alias cp='cp -i'
 alias mv='mv -i'
 alias ln='ln -i'
-alias chown='chown --preserve-root'
-alias chmod='chmod --preserve-root'
-alias chgrp='chgrp --preserve-root'
 
 # bash completion
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
