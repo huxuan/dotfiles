@@ -9,3 +9,4 @@
 	s = status
 	b = branch
 	d = diff
+	co = checkout
