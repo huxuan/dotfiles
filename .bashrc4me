@@ -76,6 +76,3 @@ export PATH=${PATH}:~/Code/android-sdk-linux/platform-tools
 
 # Settings for Java
 export JAVA_HOME=/usr/lib/jvm/java-7-openjdk/jre
-
-# Homebrew
-export PATH=${PATH}:/usr/local/sbin:/usr/local/bin;
