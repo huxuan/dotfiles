@@ -22,6 +22,7 @@ set softtabstop=4
 set shiftwidth=4                " default shift width for indents
 set expandtab                   " replace tabs with ${tabstop} spaces
 set smarttab                    " smart tabs according to context
+set backspace=indent,eol,start
 
 set autoindent
 set smartindent
