@@ -68,6 +68,7 @@ MANPATH=/usr/local/texlive/2012/texmf/doc/man:$MANPATH; export MANPATH
 INFOPATH=/usr/local/texlive/2012/texmf/doc/info:$INFOPATH; export INFOPATH
 
 # PATH for Android SDK
+export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
 export PATH=${PATH}:~/Code/android-sdk-linux/tools
 export PATH=${PATH}:~/Code/android-sdk-linux/platform-tools
 
