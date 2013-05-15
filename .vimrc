@@ -94,13 +94,13 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'tomtom/tlib_vim'
 Bundle 'garbas/vim-snipmate'
 let g:snips_author = 'huxuan'
 let g:snips_email = 'i(at)huxuan.org'
 let g:tex_flavor = 'latex'
-Bundle "huxuan/vim-snippets"
+Bundle 'huxuan/vim-snippets'
 let g:snipMate = {}
 let g:snipMate.scope_aliases = {}
 let g:snipMate.scope_aliases['python'] = 'python,python-custom'
