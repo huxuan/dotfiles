@@ -104,6 +104,7 @@ Bundle 'huxuan/vim-snippets'
 let g:snipMate = {}
 let g:snipMate.scope_aliases = {}
 let g:snipMate.scope_aliases['python'] = 'python,python-custom'
+let g:snipMate.scope_aliases['tex'] = 'tex,tex-custom'
 
 Bundle 'evanmiller/nginx-vim-syntax'
 au BufRead,BufNewFile */etc/nginx/* set ft=nginx
