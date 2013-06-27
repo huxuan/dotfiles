@@ -105,6 +105,7 @@ let g:snipMate = {}
 let g:snipMate.scope_aliases = {}
 let g:snipMate.scope_aliases['python'] = 'python,python-custom'
 let g:snipMate.scope_aliases['tex'] = 'tex,tex-custom'
+Bundle 'scrooloose/nerdtree'
 
 Bundle 'evanmiller/nginx-vim-syntax'
 au BufRead,BufNewFile */etc/nginx/* set ft=nginx
