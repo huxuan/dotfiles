@@ -1,9 +1,6 @@
 # Homebrew
 export PATH=/usr/local/sbin:/usr/local/bin:${PATH};
 
-# Homebrewed python
-export PATH=/usr/local/share/python:/usr/local/share/python3:${PATH}
-
 # Bash completion for homebrew
 source `brew --prefix`/Library/Contributions/brew_bash_completion.sh
 
