@@ -64,9 +64,9 @@ alias dns_pku='/home/huxuan/Code/scripts/dnsmasq_switch.sh p'
 alias dns_google='/home/huxuan/Code/scripts/dnsmasq_switch.sh g'
 
 # PATH for texlive
-PATH=/usr/local/texlive/2012/bin/x86_64-linux:$PATH; export PATH
-MANPATH=/usr/local/texlive/2012/texmf/doc/man:$MANPATH; export MANPATH
-INFOPATH=/usr/local/texlive/2012/texmf/doc/info:$INFOPATH; export INFOPATH
+PATH=/usr/local/texlive/2013/bin/x86_64-linux:$PATH; export PATH
+MANPATH=/usr/local/texlive/2013/texmf-dist/doc/man:$MANPATH; export MANPATH
+INFOPATH=/usr/local/texlive/2013/texmf-dist/doc/info:$INFOPATH; export INFOPATH
 
 # PATH for Android SDK
 export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
