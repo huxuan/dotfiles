@@ -50,9 +50,7 @@ alias xehost6='ssh root@2001:1978:2000:2::3:32 -D 8087'
 alias xehost0='ssh root@180.210.243.243 -D 8087'
 alias xehost1='ssh root@198.244.51.31 -D 8087'
 alias xehost16='ssh root@2001:1978:2000:2::3:23 -D 8087'
-alias icst='ssh huxuan@172.31.204.239'
-alias cpdp='ssh huxuan@172.31.204.177'
-alias cpdp1='ssh huxuan@59.108.48.16'
+alias cpdp='ssh huxuan@172.31.222.67'
 alias xehost_showfom='ssh root@69.28.54.10'
 
 # alias for software
