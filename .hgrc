@@ -5,7 +5,7 @@ username = huxuan <i@huxuan.org>
 qnew = -Ue
 
 [extensions]
-hgext.mq =
+mq =
 
 [diff]
 git = 1
