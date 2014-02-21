@@ -52,6 +52,7 @@ alias xehost1='ssh root@198.244.51.31 -D 8087'
 alias xehost16='ssh root@2001:1978:2000:2::3:23 -D 8087'
 alias cpdp='ssh huxuan@172.31.222.67'
 alias xehost_showfom='ssh root@69.28.54.10'
+alias pkujishi='ssh huxuan@115.29.138.79'
 
 # alias for software
 alias synergy='synergyc icst-pc'
