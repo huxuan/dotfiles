@@ -108,6 +108,7 @@ let g:snipMate.scope_aliases['tex'] = 'tex,tex-custom'
 Bundle 'scrooloose/nerdtree'
 let NERDTreeIgnore = ['\.pyc$']
 Bundle 'scrooloose/syntastic'
+let g:syntastic_tex_checkers = ['lacheck']
 
 Bundle 'evanmiller/nginx-vim-syntax'
 au BufRead,BufNewFile */etc/nginx/* set ft=nginx
