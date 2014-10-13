@@ -16,3 +16,6 @@ INFOPATH=/usr/local/texlive/2013/texmf-dist/doc/info:$INFOPATH; export INFOPATH
 
 # Path for Android SDK
 export ANDROID_HOME=/usr/local/opt/android-sdk
+
+# Path for JAVA_HOME
+export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
