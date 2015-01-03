@@ -49,7 +49,8 @@ alias cpdp='ssh huxuan@59.108.48.32 -D 8087'
 alias capu='ssh capu@chexie.net'
 alias rackspace='ssh root@119.9.76.101 -D 8087'
 alias rackspace6='ssh root@2401:1800:7800:101:c52e:d04f:ff1c:c06 -D 8087'
-alias qianpai='ssh hu@60.174.236.35'
+alias qianpai='ssh root@182.92.226.112'
+alias qianpai_test='ssh hu@60.174.236.35'
 
 # alias for script
 alias dns_auto='/home/huxuan/Code/scripts/dnsmasq_switch.sh'
