@@ -45,7 +45,7 @@ alias pacman='PACMAN=/usr/bin/pacman; [ -f /usr/bin/pacman-color ] && PACMAN=/us
 # alias for VPS
 alias linode='ssh huxuan@106.187.39.228 -D 8087'
 alias linode6='ssh huxuan@2400:8900::f03c:91ff:fedf:fa61 -D 8087'
-alias cpdp='ssh huxuan@59.108.48.32 -D 8087'
+alias cpdp='ssh root@59.108.48.32 -D 8087'
 alias capu='ssh capu@chexie.net'
 alias rackspace='ssh root@119.9.76.101 -D 8087'
 alias rackspace6='ssh root@2401:1800:7800:101:c52e:d04f:ff1c:c06 -D 8087'
