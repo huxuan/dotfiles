@@ -10,15 +10,15 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 # Path for TexLive
-PATH=/usr/local/texlive/2013/bin/x86_64-darwin:$PATH; export PATH
-MANPATH=/usr/local/texlive/2013/texmf-dist/doc/man:$MANPATH; export MANPATH
-INFOPATH=/usr/local/texlive/2013/texmf-dist/doc/info:$INFOPATH; export INFOPATH
+PATH=/usr/local/texlive/2014/bin/x86_64-darwin:$PATH; export PATH
+MANPATH=/usr/local/texlive/2014/texmf-dist/doc/man:$MANPATH; export MANPATH
+INFOPATH=/usr/local/texlive/2014/texmf-dist/doc/info:$INFOPATH; export INFOPATH
 
 # Path for Android SDK
 export ANDROID_HOME=/usr/local/opt/android-sdk
 
 # Path for JAVA_HOME
-export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
+export JAVA_HOME=`/usr/libexec/java_home`
 
 # Set locale
 export LC_ALL=en_US.UTF-8
