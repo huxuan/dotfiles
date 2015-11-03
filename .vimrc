@@ -110,6 +110,7 @@ let NERDTreeIgnore = ['\.pyc$']
 Bundle 'scrooloose/syntastic'
 let g:syntastic_tex_checkers = ['lacheck']
 let g:syntastic_python_checkers = ['python']
+let g:syntastic_java_javac_config_file_enabled = 1
 
 Bundle 'evanmiller/nginx-vim-syntax'
 au BufRead,BufNewFile */etc/nginx/* set ft=nginx
