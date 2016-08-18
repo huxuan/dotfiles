@@ -15,7 +15,7 @@ let maplocalleader = '	'       " tab as a local leader
 
 " Formatting " {{{
 set wrap                        " wrap lines by default
-set textwidth=80                " 80 characters per line
+set textwidth=79                " 79 characters per line
 
 set tabstop=8                   " tab size
 set softtabstop=4
