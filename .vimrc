@@ -106,7 +106,7 @@ let g:snipMate.scope_aliases = {}
 let g:snipMate.scope_aliases['python'] = 'python,python-custom'
 let g:snipMate.scope_aliases['tex'] = 'tex,tex-custom'
 Bundle 'scrooloose/nerdtree'
-let NERDTreeIgnore = ['\.pyc$', '\.t7$']
+let NERDTreeIgnore = ['\.pyc$', '\.t7', '\.aux$']
 Bundle 'scrooloose/syntastic'
 let g:syntastic_tex_checkers = ['lacheck']
 let g:syntastic_python_checkers = ['python']
