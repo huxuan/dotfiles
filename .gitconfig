@@ -11,3 +11,5 @@
 	d = diff
 	l = log
 	s = status
+[core]
+	editor = vim
