@@ -88,10 +88,10 @@ autocmd FileType python setlocal tabstop=8 shiftwidth=4 softtabstop=4
 " Scripts and Bundles " {{{
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#rc()
 
-Bundle 'gmarik/vundle'
+Bundle 'VundleVim/Vundle.vim'
 
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
