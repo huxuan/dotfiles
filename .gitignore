@@ -2,7 +2,6 @@
 .bash_profile
 .config/
 .ssh/
-.vim/bundle/
 .viminfo
 Code/
 Desktop/
