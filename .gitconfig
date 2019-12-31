@@ -13,6 +13,7 @@
 	s = status
 [core]
 	editor = vim
+	fileMode = false
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
