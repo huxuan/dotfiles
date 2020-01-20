@@ -76,3 +76,7 @@ export PATH=${PATH}:~/Code/android-sdk-linux/platform-tools
 
 # Settings for Java
 export JAVA_HOME=/usr/lib/jvm/java-7-openjdk/jre
+
+# Rsync for Code
+alias rpush='rsync -auzvC --filter=":- .gitignore" ~/Code/ dev:~/Code/'
+alias rpull='rsync -auzvC --filter=":- .gitignore" dev:~/Code/ ~/Code/'
