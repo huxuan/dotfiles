@@ -31,7 +31,6 @@ complete -cf man
 
 # alias for command
 alias grep='grep --colour=auto'
-alias ls='ls --color=auto'
 alias df='df -h'
 alias mkdir='mkdir -p -v'
 alias mtr='mtr -t'
