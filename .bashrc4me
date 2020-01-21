@@ -1,5 +1,5 @@
 # vim as default editor
-export EDITOR="/usr/bin/vim"
+export EDITOR="vim"
 
 # PS1
 if [[ ${EUID} == 0 ]] ; then
@@ -12,14 +12,8 @@ fi
 alias sudo='sudo env PATH=$PATH $@'
 
 # ls
-alias ls='ls -hF'
-alias lr='ls -R'                    # recursive ls
-alias ll='ls -l'
-alias la='ll -A'
-alias lx='ll -BX'                   # sort by extension
-alias lz='ll -rS'                   # sort by size
-alias lt='ll -rt'                   # sort by date
-alias lm='la | more'
+alias ll='ls -alF'
+alias la='ls -A'
 
 # safety features
 alias cp='cp -i'
@@ -32,51 +26,22 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 # auto-completion
-# complete -cf sudo
+complete -cf sudo
 complete -cf man
 
 # alias for command
 alias grep='grep --colour=auto'
+alias ls='ls --color=auto'
 alias df='df -h'
 alias mkdir='mkdir -p -v'
 alias mtr='mtr -t'
-alias pacman='PACMAN=/usr/bin/pacman; [ -f /usr/bin/pacman-color ] && PACMAN=/usr/bin/pacman-color; $PACMAN $@'
-
-# alias for VPS
-alias linode='ssh huxuan@106.187.39.228 -D 8087'
-alias linode6='ssh huxuan@2400:8900::f03c:91ff:fedf:fa61 -D 8087'
-alias cpdp='ssh root@59.108.48.32 -D 8087'
-alias capu='ssh capu@chexie.net'
-alias rackspace='ssh root@119.9.76.101 -D 8087'
-alias rackspace6='ssh root@2401:1800:7800:101:c52e:d04f:ff1c:c06 -D 8087'
-alias qianpai='ssh root@123.56.89.115'
-alias qianpai_test='ssh hu@60.174.236.35'
-alias funmi='ssh ubuntu@115.159.55.160'
-alias buaavps='ssh root@162.250.102.137'
-alias bl='ssh huxuan@bl.pku.edu.cn'
-alias alims='ssh huxuan@123.56.94.165'
-
-# alias for script
-alias dns_auto='/home/huxuan/Code/scripts/dnsmasq_switch.sh'
-alias dns_pku='/home/huxuan/Code/scripts/dnsmasq_switch.sh p'
-alias dns_google='/home/huxuan/Code/scripts/dnsmasq_switch.sh g'
-
-# PATH for texlive
-PATH=/usr/local/texlive/2013/bin/x86_64-linux:$PATH; export PATH
-MANPATH=/usr/local/texlive/2013/texmf-dist/doc/man:$MANPATH; export MANPATH
-INFOPATH=/usr/local/texlive/2013/texmf-dist/doc/info:$INFOPATH; export INFOPATH
-
-# PATH for Android SDK
-export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
-export PATH=${PATH}:~/Code/android-sdk-linux/tools
-export PATH=${PATH}:~/Code/android-sdk-linux/platform-tools
-
-# Load RVM function
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-
-# Settings for Java
-export JAVA_HOME=/usr/lib/jvm/java-7-openjdk/jre
 
 # Rsync for Code
 alias rpush='rsync -auzvC --filter=":- .gitignore" ~/Code/ dev:~/Code/'
 alias rpull='rsync -auzvC --filter=":- .gitignore" dev:~/Code/ ~/Code/'
+
+# pip
+export PIP_REQUIRE_VIRTUALENV=true
+gpip() {
+    PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}

@@ -1,8 +1,11 @@
+*.swp
 .bash_history
 .bash_profile
 .config/
 .ssh/
+.tox/
 .viminfo
+.vscode*
 Code/
 Desktop/
 Documents/
@@ -11,3 +14,11 @@ Dropbox/
 Movies/
 Music/
 Pictures/
+.kube
+.local
+Applications
+BaiduYun
+Google Drive/
+Library/
+OneDrive*
+Public/
