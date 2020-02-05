@@ -3,3 +3,8 @@
 if [ -f ~/.bashrc4me ]; then
     . ~/.bashrc4me
 fi
+
+# # add .bashrc4mac
+# if [ -f ~/.bashrc4mac ]; then
+#     . ~/.bashrc4mac
+# fi
