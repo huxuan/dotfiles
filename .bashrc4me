@@ -42,6 +42,7 @@ alias rpull='rsync -auzvC --filter=":- .gitignore" dev:~/Code/ ~/Code/'
 # pip
 export PIPENV_PYPI_MIRROR=https://mirrors.aliyun.com/pypi/simple/
 export PIP_REQUIRE_VIRTUALENV=true
+export PIPENV_SKIP_LOCK=true
 gpip() {
     PIP_REQUIRE_VIRTUALENV="" pip "$@"
 }
