@@ -1,5 +1,6 @@
 *.swp
 .DS_Store
+.android
 .bash_history
 .bash_logout
 .bash_profile
@@ -7,6 +8,7 @@
 .cache/
 .config/
 .kube
+.lesshst
 .local
 .profile
 .pylint.d/
