@@ -18,6 +18,7 @@
 .tox/
 .viminfo
 .vscode*
+.wget-hsts
 Applications
 BaiduYun
 Code/
