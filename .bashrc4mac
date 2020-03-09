@@ -6,3 +6,6 @@ export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
 
 # Supress zsh warning
 export BASH_SILENCE_DEPRECATION_WARNING=1
+
+# For homebrew
+export HOMEBREW_BUNDLE_FILE=~/.Brewfile
