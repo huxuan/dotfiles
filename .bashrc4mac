@@ -9,3 +9,4 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # For homebrew
 export HOMEBREW_BUNDLE_FILE=~/.Brewfile
+export HOMEBREW_BUNDLE_NO_LOCK=true
