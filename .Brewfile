@@ -11,6 +11,7 @@ cask "osxfuse"
 brew "autopep8"
 brew "bash"
 brew "bash-completion"
+brew "byobu"
 brew "ffmpeg"
 brew "flake8"
 brew "frpc", restart_service: true
