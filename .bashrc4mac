@@ -1,12 +1,13 @@
+# Supress zsh warning
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 # Homebrew
 export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
+export PATH="/usr/local/opt/curl/bin:$PATH"
 
 # Bash completion
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 
-# Supress zsh warning
-export BASH_SILENCE_DEPRECATION_WARNING=1
-
-# For homebrew
+# For homebrew bundle
 export HOMEBREW_BUNDLE_FILE=~/.Brewfile
 export HOMEBREW_BUNDLE_NO_LOCK=true
