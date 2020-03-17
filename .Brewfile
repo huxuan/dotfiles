@@ -16,7 +16,7 @@ brew "byobu"
 brew "curl"
 brew "ffmpeg"
 brew "flake8"
-brew "frpc", restart_service: true
+brew "frpc"
 brew "git"
 brew "htop"
 brew "iproute2mac"
