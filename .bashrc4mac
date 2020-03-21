@@ -16,3 +16,8 @@ export HOMEBREW_BUNDLE_NO_LOCK=true
 export PATH="/usr/local/flutter/bin:$PATH"
 export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
+
+# Android
+export ANDROID_HOME=/usr/local/share/android-sdk
+export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/jdk/Contents/Home/
+export PATH="$ANDROID_HOME/platform-tools:$PATH"
