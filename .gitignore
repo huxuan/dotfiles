@@ -12,6 +12,7 @@
 .config/
 .dart/
 .dartServer/
+.flexget/
 .flutter
 .flutter_tool_state
 .gem/
@@ -37,7 +38,7 @@
 .yarnrc
 Applications
 BaiduYun
-Code/
+Code*
 Desktop/
 Documents/
 Downloads/
