@@ -37,6 +37,9 @@ gpip() {
     PIP_REQUIRE_VIRTUALENV="" pip "$@"
 }
 
+# pipx
+export PIPX_BIN_DIR=/usr/local/bin
+
 # Set locale
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
