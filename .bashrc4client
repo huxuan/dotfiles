@@ -4,3 +4,5 @@ alias rpull='rsync -actuvzCO --filter=":- .gitignore" dev:~/Code/ ~/Code/'
 
 # pip
 export PIPENV_PYPI_MIRROR=https://mirrors.aliyun.com/pypi/simple/
+export PIP_INDEX_URL=https://mirrors.aliyun.com/pypi/simple/
+export PIP_TRUSTED_HOST=mirrors.aliyun.com
