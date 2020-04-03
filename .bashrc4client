@@ -1,0 +1,6 @@
+# Rsync for Code
+alias rpush='rsync -actuvzCO --filter=":- .gitignore" ~/Code/ dev:~/Code/'
+alias rpull='rsync -actuvzCO --filter=":- .gitignore" dev:~/Code/ ~/Code/'
+
+# pip
+export PIPENV_PYPI_MIRROR=https://mirrors.aliyun.com/pypi/simple/

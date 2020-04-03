@@ -1,8 +1,18 @@
 
-# add .bashrc4me
-if [ -f ~/.bashrc4me ]; then
-    . ~/.bashrc4me
+# add .bashrc4all
+if [ -f ~/.bashrc4all ]; then
+    . ~/.bashrc4all
 fi
+
+# # add .bashrc4client
+# if [ -f ~/.bashrc4client ]; then
+#     . ~/.bashrc4client
+# fi
+
+# # add .bashrc4linux
+# if [ -f ~/.bashrc4linux ]; then
+#     . ~/.bashrc4linux
+# fi
 
 # # add .bashrc4mac
 # if [ -f ~/.bashrc4mac ]; then

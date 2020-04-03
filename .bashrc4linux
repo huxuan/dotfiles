@@ -1,0 +1,2 @@
+# bash completion
+[ -f /etc/profile.d/bash_completion.sh ] && . /etc/profile.d/bash_completion.sh
