@@ -22,3 +22,6 @@ export PUB_HOSTED_URL=https://pub.flutter-io.cn
 export ANDROID_HOME=/usr/local/share/android-sdk
 export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/jdk/Contents/Home/
 export PATH="$ANDROID_HOME/platform-tools:$PATH"
+
+# pipx
+export PIPX_BIN_DIR=/usr/local/bin
