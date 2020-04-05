@@ -5,13 +5,11 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/curl/bin:$PATH"
 export PATH="/usr/local/opt/node@10/bin:$PATH"
+export HOMEBREW_BUNDLE_FILE=~/.Brewfile
+export HOMEBREW_BUNDLE_NO_LOCK=true
 
 # Bash completion
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
-
-# For homebrew bundle
-export HOMEBREW_BUNDLE_FILE=~/.Brewfile
-export HOMEBREW_BUNDLE_NO_LOCK=true
 
 # Flutter
 export PATH="/usr/local/flutter/bin:$PATH"
