@@ -1,4 +1,4 @@
 
-[ -f ~/.bashrc4all ] && . ~/.bashrc4all
-[[ $HOSTNAME != *"huxuanorg"* && -f ~/.bashrc4client ]] && . ~/.bashrc4client
-[[ -f ~/.bashrc4`uname` ]] && . ~/.bashrc4`uname`
+[ -f ~/.bashrc_common ] && . ~/.bashrc_common
+[[ $HOSTNAME != *"huxuanorg"* && -f ~/.bashrc_client ]] && . ~/.bashrc_client
+[[ -f ~/.bashrc_`uname` ]] && . ~/.bashrc_`uname`
