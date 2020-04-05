@@ -26,7 +26,6 @@
 .monit.state
 .node_repl_history
 .npm/
-.profile
 .pylint.d/
 .python_history
 .ssh/
