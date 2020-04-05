@@ -4,7 +4,6 @@
 .azure/
 .bash_history
 .bash_logout
-.bash_profile
 .bash_sessions/
 .bashrc
 .byobu/
