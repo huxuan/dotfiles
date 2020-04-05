@@ -2,7 +2,7 @@
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # Homebrew
-export PATH="/usr/local/sbin:/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/curl/bin:$PATH"
 export PATH="/usr/local/opt/node@10/bin:$PATH"
 
