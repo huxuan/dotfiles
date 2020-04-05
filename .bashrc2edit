@@ -1,20 +1,5 @@
 
-# add .bashrc4all
-if [ -f ~/.bashrc4all ]; then
-    . ~/.bashrc4all
-fi
-
-# # add .bashrc4client
-# if [ -f ~/.bashrc4client ]; then
-#     . ~/.bashrc4client
-# fi
-
-# # add .bashrc4linux
-# if [ -f ~/.bashrc4linux ]; then
-#     . ~/.bashrc4linux
-# fi
-
-# # add .bashrc4mac
-# if [ -f ~/.bashrc4mac ]; then
-#     . ~/.bashrc4mac
-# fi
+[ -f ~/.bashrc4all ] && . ~/.bashrc4all
+[[ $HOSTNAME != *"huxuanorg"* && -f ~/.bashrc4client ]] && . ~/.bashrc4client
+[[ `uname` == "Darwin" && -f ~/.bashrc4mac ]] && . ~/.bashrc4mac
+[[ `uname` == "Linux" && -f ~/.bashrc4Linux ]] && . ~/.bashrc4linux
