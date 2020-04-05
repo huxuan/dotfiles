@@ -1,5 +1,4 @@
 
 [ -f ~/.bashrc4all ] && . ~/.bashrc4all
 [[ $HOSTNAME != *"huxuanorg"* && -f ~/.bashrc4client ]] && . ~/.bashrc4client
-[[ `uname` == "Darwin" && -f ~/.bashrc4mac ]] && . ~/.bashrc4mac
-[[ `uname` == "Linux" && -f ~/.bashrc4Linux ]] && . ~/.bashrc4linux
+[[ -f ~/.bashrc4`uname` ]] && . ~/.bashrc4`uname`
