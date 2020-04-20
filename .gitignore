@@ -1,5 +1,6 @@
 *.swp
 .DS_Store
+.Trash/
 .android
 .azure/
 .bash_history
@@ -23,6 +24,7 @@
 .monit.id
 .monit.pid
 .monit.state
+.node-gyp/
 .node_repl_history
 .npm/
 .pylint.d/
