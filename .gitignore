@@ -2,6 +2,7 @@
 .DS_Store
 .Trash/
 .android
+.anydesk/
 .azure/
 .bash_history
 .bash_logout
@@ -27,6 +28,7 @@
 .node-gyp/
 .node_repl_history
 .npm/
+.oracle_jre_usage/
 .pylint.d/
 .python_history
 .ssh/
