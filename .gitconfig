@@ -21,3 +21,5 @@
 	smudge = git-lfs smudge -- %f
 [fetch]
 	prune = true
+[pull]
+	rebase = false
