@@ -9,7 +9,7 @@ else
 fi
 
 # make sudo has same PATH
-alias sudo='sudo env PATH=$PATH $@'
+alias sudo='sudo env PATH="$PATH" $@'
 
 # ls
 alias ll='ls -alF'
