@@ -10,3 +10,8 @@ export MANPATH="/home/linuxbrew/.linuxbrew/share/man${MANPATH+:$MANPATH}:";
 export INFOPATH="/home/linuxbrew/.linuxbrew/share/info${INFOPATH+:$INFOPATH}";
 export HOMEBREW_BUNDLE_FILE=~/.LinuxBrewfile
 export HOMEBREW_BUNDLE_NO_LOCK=true
+
+# TexLive
+export PATH="/usr/local/texlive/2021/bin/x86_64-linux${PATH+:$PATH}";
+export MANPATH="/usr/local/texlive/2021/texmf-dist/doc/man${MANPATH+:$MANPATH}:";
+export INFOPATH="/usr/local/texlive/2021/texmf-dist/doc/info${INFOPATH+:$INFOPATH}";
